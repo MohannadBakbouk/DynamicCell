@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-DynamicCell-DynamicCellUITests/Pods-DynamicCell-DynamicCellUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Fakery/Fakery.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
