@@ -55,7 +55,7 @@ class FeedsController: UIViewController {
         let faker = Faker(locale: "nb-NO")
         for i in 0...50 {
             let randomInt = Int(arc4random_uniform(13) + 2)
-            var text = faker.lorem.words(amount: randomInt)
+            let text = faker.lorem.words(amount: randomInt)
             headers.append(text)
         } 
     }
@@ -80,8 +80,6 @@ extension FeedsController : UICollectionViewDataSource , UICollectionViewDelegat
     }
 
 }
-
-
 
 extension FeedsController : PinterestLayoutDelegate {
    

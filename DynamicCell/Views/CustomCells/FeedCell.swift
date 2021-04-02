@@ -11,7 +11,6 @@ import Kingfisher
 
 class FeedCell: UICollectionViewCell {
     
-    
     var img : UIImageView = {
       let img = UIImageView()
       img.backgroundColor = .gray
